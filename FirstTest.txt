@@ -1,0 +1,11 @@
+--This is a test file
+--
+DECLARE
+
+v_time DATE := SYSDATE;
+
+BEGIN
+
+ DBMS_OUTPUT.PUT_LINE('This is a Test Output - '||v_time);
+ 
+END;
